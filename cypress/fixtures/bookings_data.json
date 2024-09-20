@@ -1,0 +1,34 @@
+[{
+    "firstname": "Ghayur",
+    "lastname": "Irfan",
+    "totalprice": 5000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  {
+    "firstname": "Fayyaz",
+    "lastname": "imtiaz",
+    "totalprice": 6000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  {
+    "firstname": "Fahad",
+    "lastname": "bilal",
+    "totalprice": 7000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2022-01-01",
+      "checkout": "2025-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  }
+]

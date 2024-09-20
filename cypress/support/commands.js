@@ -23,3 +23,38 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+Cypress.Commands.add('createBooking', (bookingData) => {
+    return cy.request({
+      method: 'POST',
+      url: `${Cypress.env('BASE_URL')}/booking`,
+      body: bookingData,  // Accept data passed from the test
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    }).then((response) => {
+      // Log the booking ID for debugging purposes
+      cy.log(response.body.bookingid);
+  
+      // Return the booking ID
+      return cy.wrap(response.body.bookingid)
+    });
+  });
+
+Cypress.Commands.add('deleteBooking', (bookingId) => {
+    return cy.request({
+      method: 'DELETE',
+      url: `${Cypress.env('BASE_URL')}/booking/${bookingId}`,
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Basic YWRtaW46cGFzc3dvcmQxMjM='
+      },
+    }).then((response) => {
+      // Assert that the response status is as expected (201)
+      expect(response.status).to.be.equal(201);
+      
+      // Optionally return the response for further assertions if needed
+      return cy.wrap(response);
+    });
+  });
