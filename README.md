@@ -1,2 +1,2 @@
 # API-testing-with-cypress
-demo API testing project
+Demo API testing project in which we are testing each of th restfull API methods 
