@@ -1,0 +1,17 @@
+{
+  "name": "api-testing-with-cypress",
+  "version": "1.0.0",
+  "description": "Demo API testing project in which we are testing each of th restfull API methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.14.2"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
