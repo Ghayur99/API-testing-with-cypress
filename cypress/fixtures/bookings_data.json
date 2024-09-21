@@ -4,8 +4,8 @@
     "totalprice": 5000,
     "depositpaid": true,
     "bookingdates": {
-      "checkin": "2018-01-01",
-      "checkout": "2019-01-01"
+      "checkin": "2025-01-01",
+      "checkout": "3040-01-01"
     },
     "additionalneeds": "Breakfast"
   },
@@ -15,8 +15,8 @@
     "totalprice": 6000,
     "depositpaid": true,
     "bookingdates": {
-      "checkin": "2018-01-01",
-      "checkout": "2019-01-01"
+      "checkin": "2025-01-01",
+      "checkout": "3040-01-01"
     },
     "additionalneeds": "Breakfast"
   },
@@ -26,8 +26,8 @@
     "totalprice": 7000,
     "depositpaid": true,
     "bookingdates": {
-      "checkin": "2022-01-01",
-      "checkout": "2025-01-01"
+      "checkin": "2030-01-01",
+      "checkout": "2045-01-01"
     },
     "additionalneeds": "Breakfast"
   }
